@@ -1,0 +1,10 @@
+<Device Model="MPC3-201">
+   <Network Type="Ethernet" Id="02">
+      <Device Model="DIN-CENCN-2-POE,DIN-CENCN-2" DeviceId="1A" Name="DIN-CENCN-2(-POE)">
+         <Network Type="Cresnet" Id="01">
+            <Device Model="C2N-IO" DeviceId="09"/>
+         </Network>
+         <Network Type="Cresnet" Id="02"/>
+      </Device>
+   </Network>
+</Device>
